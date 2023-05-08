@@ -10,7 +10,9 @@ const OTP = ({ value, valueLength, onChange }) => {
         value={otp}
         onChange={setOtp}
         numInputs={6}
-        renderSeparator={<span className="mx-3"> </span>}
+        inputType="number"
+        inputStyle={{ borderRadius: "5px", width: "1.5em" }}
+        renderSeparator={<span className="mx-1">-</span>}
         renderInput={(props) => <input {...props} />}
       />
     </div>

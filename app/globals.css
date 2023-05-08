@@ -19,16 +19,16 @@
 }
 
 html {
-  font-size: 90%;
+  font-size: 110%;
 }
 
 @media screen and (max-width: 680px) {
   html {
-    font-size: 50%;
+    font-size: 100%;
   }
 }
 @media screen and (max-width: 480px) {
   html {
-    font-size: 50%;
+    font-size: 80%;
   }
 }
