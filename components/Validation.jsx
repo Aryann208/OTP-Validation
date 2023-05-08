@@ -9,7 +9,7 @@ const Validation = () => {
       <div className="flex flex-col justify-center text-black h-[100%]  ">
         <div className="flex flex-col">
           <h2 className="text-black text-center  ">Phone Verification</h2>
-          <p className="font-thin text-gray-500">
+          <p className="font-thin text-gray-700">
             Enter the OTP you received on 89206-6XXXX
           </p>
         </div>
